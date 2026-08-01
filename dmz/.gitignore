@@ -1,0 +1,20 @@
+# .NET build and publish output
+[Bb]in/
+[Oo]bj/
+publish/
+
+# Test output
+TestResults/
+coverage/
+
+# IDE and editor workspace state
+.vs/
+.idea/
+*.user
+*.userosscache
+*.suo
+*.sln.docstates
+
+# Logs
+logs/
+*.log

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+storybook-static/
+.turbo/
+.dotnet-cli/
+coverage/
+bin/
+obj/
+*.local
+.env
+.DS_Store
+*.log

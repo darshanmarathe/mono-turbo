@@ -1,0 +1,42 @@
+.shell {
+  min-height: 100vh;
+  font-family: system-ui, -apple-system, 'Segoe UI', sans-serif;
+}
+
+.shell__nav {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  padding: 0.75rem 1.5rem;
+  border-bottom: 1px solid var(--ds-color-border);
+  background: var(--ds-color-surface);
+}
+
+.shell__brand {
+  font-weight: 700;
+  color: var(--ds-color-text);
+}
+
+.shell__links {
+  display: flex;
+  gap: 1rem;
+}
+
+.shell__links a {
+  color: var(--ds-color-text-muted);
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.shell__links a:hover {
+  color: var(--ds-color-primary);
+}
+
+.shell__content {
+  padding: 1rem;
+}
+
+.shell__loading {
+  color: var(--ds-color-text-muted);
+  padding: 2rem;
+}

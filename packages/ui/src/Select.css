@@ -1,0 +1,14 @@
+.select {
+  border: 1px solid var(--ds-color-border-strong);
+  border-radius: var(--ds-radius-sm);
+  padding: 0.5rem 0.75rem;
+  font: inherit;
+  background: var(--ds-color-surface);
+  color: var(--ds-color-text);
+}
+
+.select:focus {
+  outline: 2px solid var(--ds-color-primary);
+  outline-offset: 1px;
+  border-color: transparent;
+}

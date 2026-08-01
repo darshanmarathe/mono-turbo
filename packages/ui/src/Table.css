@@ -1,0 +1,25 @@
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.table th {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 2px solid var(--ds-color-border);
+  color: var(--ds-color-text-muted);
+  font-size: var(--ds-font-size-sm);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.table td {
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid var(--ds-color-border);
+  color: var(--ds-color-text);
+}
+
+.table tbody tr:hover {
+  background: var(--ds-color-primary-soft);
+}
