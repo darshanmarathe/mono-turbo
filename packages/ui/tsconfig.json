@@ -4,5 +4,6 @@
     "jsx": "react-jsx",
     "lib": ["es2025", "dom", "dom.iterable"]
   },
-  "include": ["src"]
+  "include": ["src"],
+  "exclude": ["src/**/*.stories.tsx"]
 }
